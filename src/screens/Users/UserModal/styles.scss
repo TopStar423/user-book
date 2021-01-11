@@ -1,0 +1,97 @@
+.user-modal {
+  position: absolute;
+  top: 120px;
+  width: 100%;
+  height: calc(100% - 120px);
+  padding: 40px 80px;
+  background: #e8e8e8;
+
+  .modal-title {
+    font-size: 32px;
+    color: #a622c6;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .user-field-label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2f1847;
+    line-height: 20px;
+  }
+
+  .user-field-input {
+    font-size: 16px;
+    color: #000;
+    height: 50px;
+  }
+
+  .user-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .first-name, .last-name {
+      width: 49%;
+    }
+  }
+
+  .email-phone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .email, .phone-number {
+      width: 49%;
+    }
+  }
+
+  .bio {
+    margin-bottom: 30px;
+
+    .textarea {
+      min-height: 120px;
+    }
+  }
+
+  .password-fields {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .password, .confirm-password {
+      width: 49%;
+
+      .ant-input {
+        font-size: 16px;
+      }
+
+      .toggle-password {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+    .btn-user-action {
+      width: 200px;
+      height: 60px;
+      font-size: 18px;
+
+      &.btn-cancel {
+        background: #a4a4a4;
+        color: #000;
+      }
+
+      &.btn-save {
+        background: #a622c6;
+        color: #fff;
+      }
+    }
+  }
+}

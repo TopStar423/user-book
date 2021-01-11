@@ -1,0 +1,17 @@
+.auth-screen {
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+
+    .first-name, .last-name {
+      width: 49%;
+    }
+  }
+
+  .auth-input {
+    &.textarea {
+      min-height: 80px;
+      padding: 10px 20px;
+    }
+  }
+}
